@@ -7,10 +7,24 @@ const Navbar = () => {
     return (
         <>
             <div className='header'>
-                <Link to={'/'}>
+                <Link to="/about" >
                     <h1>Abhijith B</h1>
                 </Link>
-            </div>
+                <ul>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/about">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/project">Project</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact</Link>
+                    </li>
+                </ul >
+            </div >
         </>
     );
 }
