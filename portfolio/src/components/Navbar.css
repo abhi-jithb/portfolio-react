@@ -1,0 +1,12 @@
+header{
+    background-color: #eeef;
+}
+nav-menu{
+    display:flex;
+}
+nav-menu li{
+    list-style: none;
+    margin-right: 20px;
+    padding:0 1rem;
+
+}
