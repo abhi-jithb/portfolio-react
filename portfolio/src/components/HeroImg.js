@@ -7,9 +7,10 @@ const HeroImg = () => {
         <>
             <div className="hero">
                 <div className="mask">
+                    <img className="into-img" src={IntroImg} alt="IntroImg" />
 
                 </div>
-            </div>
+            </div >
         </>
     )
 }
