@@ -24,7 +24,7 @@ const Navbar = () => {
             < Link to="/" > <h1>Abhijith B</h1></Link >
             < ul className={touch ? "nav-menu active" : "nav-menu"} >
                 <li>
-                    <Link to="/home">Home</Link>
+                    <Link to="/">Home</Link>
                 </li >
                 <li>
                     <Link to="/about">About</Link>
