@@ -13,14 +13,29 @@ const HeroImg = () => {
             </div>
             <div className="content">
                 <p>HI, I'M A FREELANCER.</p>
-                <h1>React Developer.</h1>
+                <h1>Full Stack Developer.</h1>
                 <div>
                     <Link to="/projects" className="btn">Projects</Link>
-                    <Link to="/contact" className="btn-light">Contact</Link>
+                    <Link to="/contact" className="btn btn-light">Contact</Link>
                 </div>
             </div>
         </div>
-        
+        // revaluation
+        /**
+         * <div className="hero">
+         * <div className="mask">
+         * <img src={IntroImg} alt="introimage"/>
+         * </div>
+         * <div className="content">
+         * <p>Hi, I'm  a freelancer.</p>
+         * <h1>REACT DEVELOPER.</h1>
+         * </div>
+         * <div className="">
+         * <Link to="/projects" className="btn">Projects</Link>
+         * <Link to="/content" className="btnt-light">Content</Link>
+         * 
+         * </div></div>
+         */
     )
 }
 
