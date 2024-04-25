@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import "./HeroProjectStyles.css"
 
-const HeroProject = () => {
-    return (
-        <div className='hero-img'>
-            <div className='heading'>
-                <h1>Projects</h1>
-                <p>My most recent projects are showcased below</p>
+class HeroProject extends Component {
+    render() {
+        return (
+            <div className='hero-img' >
+                <div className='heading'>
+                    <h1>{this.props.heading}</h1>
+                    <p>{this.props.text}</p>
+                    <p>{this.props.text2}</p>
+                </div>
+
             </div>
-            
-        </div>
-    )
+        )
+    }
 }
 export default HeroProject
