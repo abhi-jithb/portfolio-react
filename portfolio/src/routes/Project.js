@@ -1,8 +1,16 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import HeroImg from '../components/HeroImg.js'
+import Footer from '../components/Footer.js'
+
 
 const Project = () => {
     return (
-        <>Project Page</>
+        <>
+            <Navbar />
+            <HeroImg />
+            <Footer />
+        </>
     )
 }
 
