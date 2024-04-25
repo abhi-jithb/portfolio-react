@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Outfit:wght@100..900&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Outfit', sans-serif;
+    scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background-color: rgba(16, 53, 53, 0.933);
+    
 }
+h1,h4,p,a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.btn{
+    padding:12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgb(248, 217, 15);
+    color: #222;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-light{
+    background: transparent;
+    color:#fff;
+
+}
+
+.bt:hover{
+    background-color: #222;
+    color:#fff;
+    transition:0.3s;
+}
+
+/* copied from navbar.styles.css */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1rem;
+
+}
+
+.nav-menu{
+    display: flex;
+}
+.nav-menu li{
+    padding: 0 1rem;
+    cursor: pointer;
+
+}
+.nav-menu li a{
+    font-size:1.2rem;
+    font-weight:500;
+}
+
+@media screen and (max-width:1040px){
+    .nav-menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height:100vh;
+        background-color: rgba(0, 0, 0, 0.9);
+        position:absolute;
+        top:0;
+        left:0;
+        z-index: -3;
+    }
+       .nav-menu li{
+        padding:1rem 0;
+    }
+    .nav-menu li a{
+        font-size: 2rem;
+    }
+}
+/* tilll here ... . .. . . . .. . . .  */
