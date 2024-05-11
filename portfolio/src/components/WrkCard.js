@@ -10,7 +10,7 @@ const WrkCard = () => {
         <h1 className="project-heading">Projects</h1>
         <div className="project-container">
             <div className="project-card">
-                <img src={pro1} alt="project-1" width={"100%"} height={"60%"}/>
+                <img src={pro1} alt="project-1" />
                  <h2 className="project-title">Project Title</h2>
                  <div className="project-details">
                     <p>this is the project description</p>
