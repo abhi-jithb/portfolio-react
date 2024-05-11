@@ -34,6 +34,17 @@
     margin: 1.5rem auto;
     display: block;
 }
+.budget{
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.btn{
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+
+}
 @media screen and (max-width:720px){
     .card-container{
         max-width: 90%;
