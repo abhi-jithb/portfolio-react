@@ -3,15 +3,15 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer.js'
 import HeroImg2 from '../components/HeroImg2.js'
 import AboutContent from '../components/AboutContent.js'
-import linkedin from '../components/linkedin.js'
 
 const About = () => {
     return (
         <>
             <Navbar />
-            <HeroImg2 heading="About." text="I'm a Full Stack Developer"/>
+            <HeroImg2 heading="Hello there," text="I'm a Full Stack Developer. 
+            Waiting for great clients like you."/>
            <AboutContent/>
-           <linkedin/>
+         
             <Footer />
         </>
     )

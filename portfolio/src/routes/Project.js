@@ -12,7 +12,7 @@ const Project = () => {
     return (
         <>
             <Navbar />
-            <HeroImg2 heading="Projects." text="Some the latest Projects"/>
+            <HeroImg2 heading="Projects" text="Some of recent projects are listed below..."/>
             <Wrk/>
             <PricingCard/>
             <Footer />
