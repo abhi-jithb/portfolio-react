@@ -1,6 +1,7 @@
 import React from "react";
 import "./FooterStyles.css";
 import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Footer = () => {
     return (
         <>
@@ -10,7 +11,7 @@ const Footer = () => {
                         <div className="location">
                             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                             <div>
-                                <p>123 House </p>
+                                <p>ABC House</p>
                                 <p>India</p>
                             </div>
                         </div>
@@ -18,22 +19,22 @@ const Footer = () => {
                         <div className="phone">
                             <h4> <FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} />
 
-                                1234567890</h4>
+                                +91 790*****46</h4>
 
                         </div>
 
                         <div className="email">
                             <h4><FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-                                support@gmail.com</h4>
+                                abhisupport@gmail.com</h4>
                         </div>
                     </div>
 
 
                     <div className="right">
                         <h4>About My Company</h4>
-                        <p>This is me Abhijith B. CEO of Wake Up. I love to motive people.</p>
+                        <p>This is me Abhijith B. CEO of Break out. I love to motive people.</p>
                         <div className="social">
-                            <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+                          <Link to={"https://linkedin.com/abhijithb/"}>  <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} /></Link>
                             <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} />
                             <FaFacebook size={30} style={{ color: "#fff", marginRight: "1rem" }} />
 
