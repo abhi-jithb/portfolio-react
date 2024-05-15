@@ -3,13 +3,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import "./MessageStyles.css";
 
-
-const Message = ({ phoneNumber }) => {
-  const handleWhatsAppMessage = () => {
-    const whatsappLink = `https://wa.me/${phoneNumber}`;
-    window.open(whatsappLink, '_blank');
-  };
-
+const Message = () =>{
   return (
     <div className='message'>
       <div className='msg-container'>
@@ -18,7 +12,7 @@ const Message = ({ phoneNumber }) => {
         <Link to={"https://wa.me/message/GJL275RDKR3UF1"}>
              <FaWhatsapp size={50} style={{ color: "#fff", marginRight: "1rem" }} />   
         
-         <div className="msg-btn" onClick={handleWhatsAppMessage}>
+         <div className="msg-btn">
          Let's chat !!!
         </div>
         </Link>
@@ -26,6 +20,6 @@ const Message = ({ phoneNumber }) => {
       </div>
     </div>
   );
-};
+}
 
 export default Message;

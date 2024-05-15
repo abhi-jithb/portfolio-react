@@ -1,6 +1,6 @@
-import "./ContactStyles.css"
-
 import React, { useState } from 'react';
+import { GoogleSpreadsheet } from 'google-spreadsheet';
+import "./ContactStyles.css"
 
 const ContactForm = () => {
     const [name, setName] = useState('');
@@ -8,35 +8,18 @@ const ContactForm = () => {
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
-        // Send form data to the backend
-        const formData = {
-            name,
-            email,
-            subject,
-            message
-        };
+        const doc = new GoogleSpreadsheet('1l6sHTQfM2w6Fn6jzb8kz5CB3l9fIJZDnK2vzfA8duBA');
+        doc.useApiKey('AIzaSyADaQa9e9myzPnAGR8KC4mNThIuOiLkboA');
 
-        // Make an API call to send the form data to the backend
-        // Replace 'apiEndpoint' with your actual backend API endpoint
-        fetch('apiEndpoint', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(formData)
-        })
-            .then(response => response.json())
-            .then(data => {
-                // Handle the response from the backend
-                console.log(data);
-            })
-            .catch(error => {
-                // Handle any errors that occurred during the API call
-                console.error(error);
-            });
+        await doc.loadInfo();
+        const sheet = doc.sheetsByIndex[0];
+
+        await sheet.addRow({ Name: name, Email: email, Subject: subject, Message: message });
+
+        console.log('Data added to Google Sheets successfully!');
     };
 
     return (

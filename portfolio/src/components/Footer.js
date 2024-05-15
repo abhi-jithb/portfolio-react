@@ -31,8 +31,8 @@ const Footer = () => {
 
 
                     <div className="right">
-                        <h4>About My Company</h4>
-                        <p>This is me Abhijith B. CEO of Break out. I love to motive people.</p>
+                        <h4>About me</h4>
+                        <p>I'm Abhijith B. Freelancer. I love to responsive websites and full stack web apps.</p>
                         <div className="social">
                           <Link to={"https://linkedin.com/abhi-jithb/"}>  <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} /></Link>
                           <Link to={"https://github.com/abhi-jithb/"}><FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} /> </Link>
