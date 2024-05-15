@@ -44,7 +44,7 @@ ul{
 }
 
 .btn:hover{
-    background-color: #e0d20c;
+    background-color: #ffc200;
     color:#fff;
     transition:0.5s;
     font-size: 1.2rem;

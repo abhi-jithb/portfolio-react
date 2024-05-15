@@ -42,8 +42,7 @@
     cursor: pointer;
     font-size: 1rem;
     transition: 0.5s;
-    position: fixed;
-    display: block;
+    
 }
 .project-btns.btn:hover{
     background-color: #fff;

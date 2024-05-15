@@ -1,6 +1,6 @@
 import React from "react";
 import "./FooterStyles.css";
-import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
+import { FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Footer = () => {
     return (
@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className="location">
                             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                             <div>
-                                <p>ABC House</p>
+                                <p></p>
                                 <p>India</p>
                             </div>
                         </div>
@@ -25,7 +25,7 @@ const Footer = () => {
 
                         <div className="email">
                             <h4><FaMailBulk size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-                                abhisupport@gmail.com</h4>
+                                freelancewithabhijith@gmail.com</h4>
                         </div>
                     </div>
 
@@ -34,9 +34,9 @@ const Footer = () => {
                         <h4>About My Company</h4>
                         <p>This is me Abhijith B. CEO of Break out. I love to motive people.</p>
                         <div className="social">
-                          <Link to={"https://linkedin.com/abhijithb/"}>  <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} /></Link>
-                            <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} />
-                            <FaFacebook size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+                          <Link to={"https://linkedin.com/abhi-jithb/"}>  <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} /></Link>
+                          <Link to={"https://github.com/abhi-jithb/"}><FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} /> </Link>
+                          <Link to={"https://wa.me/message/GJL275RDKR3UF1"}> <FaWhatsapp size={30} style={{ color: "#fff", marginRight: "1rem" }} /> </Link>
 
                         </div>
                     </div>

@@ -20,22 +20,6 @@ const HeroImg = () => {
                 </div>
             </div>
         </div>
-        // revaluation
-        /**
-         * <div className="hero">
-         * <div className="mask">
-         * <img src={IntroImg} alt="introimage"/>
-         * </div>
-         * <div className="content">
-         * <p>Hi, I'm  a freelancer.</p>
-         * <h1>REACT DEVELOPER.</h1>
-         * </div>
-         * <div className="">
-         * <Link to="/projects" className="btn">Projects</Link>
-         * <Link to="/content" className="btnt-light">Content</Link>
-         * 
-         * </div></div>
-         */
     )
 }
 
