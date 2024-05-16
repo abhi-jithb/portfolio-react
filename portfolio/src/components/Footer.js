@@ -32,7 +32,7 @@ const Footer = () => {
 
                     <div className="right">
                         <h4>About me</h4>
-                        <p>I'm Abhijith B. Freelancer. I love to responsive websites and full stack web apps.</p>
+                        <p>I'm Abhijith B ,Freelancer. Passionate full stack developer building responsive websites, webapps.</p>
                         <div className="social">
                           <Link to={"https://linkedin.com/abhi-jithb/"}>  <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} /></Link>
                           <Link to={"https://github.com/abhi-jithb/"}><FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} /> </Link>
