@@ -19,8 +19,8 @@ This is a personal portfolio website built using React. It showcases my skills, 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/your-portfolio.git`
-2. Navigate to the project directory: `cd your-portfolio`
+1. Clone the repository: `git clone https://github.com/abhi-jithb/portfolio-react.git`
+2. Navigate to the project directory: `cd portfolio`
 3. Install the dependencies: `npm install`
 
 ## Usage
