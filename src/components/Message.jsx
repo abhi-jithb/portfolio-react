@@ -10,7 +10,7 @@ const Message = () =>{
 
        <div className='plus'>
         <Link to={"https://wa.me/message/GJL275RDKR3UF1"}>
-             <FaWhatsapp size={50} style={{ color: "#fff", marginRight: "1rem" }} />   
+             <FaWhatsapp size={50} style={{ color: "#fff", marginRight: "1rem" }} />  
         
          <div className="msg-btn">
          Let's chat !!!

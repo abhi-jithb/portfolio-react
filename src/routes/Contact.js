@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <>
             <Navbar /> 
-            <Message/>
+           
             <HeroImg2 heading="Contact me." text="Feel free to connect with me "/>
            
             <ContactForm/>
